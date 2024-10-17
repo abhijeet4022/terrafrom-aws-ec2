@@ -10,7 +10,7 @@ else
   git clone https://github.com/abhijeet4022/project-ansible.git
   cd /home/centos/project-ansible
 fi
-sleep 50
+sleep 40
 ansible-playbook -i ${var.name}-dev.learntechnology.cloud, main.yml -e ansible_user=centos -e ansible_password=DevOps321 -e component=${var.name}
 
 	EOF
